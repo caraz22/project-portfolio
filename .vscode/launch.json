@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cszok/project-portfolio/syntax_refresh",
-      "program": "c:/Users/cszok/project-portfolio/syntax_refresh/build/Debug/outDebug",
+      "cwd": "c:/Users/cszok/project-portfolio/escape-pelican-town",
+      "program": "c:/Users/cszok/project-portfolio/escape-pelican-town/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
