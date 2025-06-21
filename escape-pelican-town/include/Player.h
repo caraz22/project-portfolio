@@ -5,12 +5,10 @@ using namespace std;
 class Player {
     private:
     string name;
-    int amountOfGold = 0;
+    int amountOfGold;
 
     public:
     Player(string, int);
-
-    void setName(string);
 
     string getName();
     int getAmountOfGold();

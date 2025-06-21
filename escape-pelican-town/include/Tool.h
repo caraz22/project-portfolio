@@ -7,7 +7,7 @@ class Tool {
     string toolName;
     string toolStatus;
     int upgradeCost;
-    string upgradeIngredients;
+    // string upgradeIngredients;
 
     public:
     Tool(string, string);
@@ -15,12 +15,12 @@ class Tool {
     void setToolName(string);
     void setToolStatus(string);
     void setUpgradeCost(int);
-    void setUpgradeIngredients(string);
+    // void setUpgradeIngredients(string);
 
     string getToolName();
     string getToolStatus();
     int getUpgradeCost();
-    string getUpgradeIngredients();
+    // string getUpgradeIngredients();
 
-    Tool upgradeTool(int, string);
+    Tool upgradeTool(int);
 };
