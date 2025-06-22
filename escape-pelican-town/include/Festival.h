@@ -9,13 +9,11 @@ class Festival {
     string theme;
 
     public:
-    Festival(string);
-
     Festival(string, string);
 
-    void setFestivalTheme(string);
+    void setTheme(string);
 
-    string getFestivalName();
-    string getFestivalSeason();
-    string getFestivalTheme();
+    string getName();
+    string getSeason();
+    string getTheme();
 };
