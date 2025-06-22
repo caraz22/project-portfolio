@@ -8,7 +8,7 @@ class Location {
     string currentLocation;
 
     public:
-    Location(); 
+    Location();
     
     Location(string);
 
@@ -17,5 +17,5 @@ class Location {
     string getLocationName();
     string getCurrentLocation();
 
-    string locationRelativity(string);
+    // string locationRelativity();
 };
