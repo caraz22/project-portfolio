@@ -12,11 +12,11 @@ class Residence {
     Location location;
 
     public:
-    Residence(string, string);
+    Residence(string, Location);
 
     void setHabitants(vector<Character>);
 
     string getAddress();
-    vector<Character> getResidents();
+    vector<Character> getHabitants();
     Location getLocation();
 };
