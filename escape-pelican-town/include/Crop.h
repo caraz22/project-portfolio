@@ -15,12 +15,13 @@ class Crop {
 
     void setCostOfSeed(int);
     void setDaysTillHarvest(int);
-    void sellPrice(int);
+    void setSellPrice(int);
 
     string getCropName();
     string getSeason();
-    string getCropPurchaseInfo();
-    string getSellPrice();
+    int getCostOfSeeds();
+    int getDaysTillHarvest();
+    int getSellPrice();
 
-    int totalCost(string, int);
+    int totalCost(int);
 };
