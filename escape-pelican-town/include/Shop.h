@@ -7,9 +7,9 @@ using namespace std;
 
 class Shop {
     private:
-    string shopName;
-    Character shopOwner;
-    Location shopLocation;
+    string name;
+    Character owner;
+    Location location;
     vector<string> daysOpen;
     int openingHour;
     int closingHour;
@@ -17,13 +17,13 @@ class Shop {
     public:
     Shop(string, Location);
 
-    void setShopOwner(Character);
+    void setOwner(Character);
     void setDaysOpen(vector<string>);
     void setOpeningHour(int);
     void setClosingHour(int);
 
-    Character getShopOwner();
-    Location getShopLocation();
+    Character getOwner();
+    Location getLocation();
     
-    int getHours(int, int);
+    int getHours();
 };

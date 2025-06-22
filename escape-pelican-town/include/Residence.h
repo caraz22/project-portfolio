@@ -8,13 +8,13 @@ using namespace std;
 class Residence {
     private:
     string address;
-    vector<Character> residents;
-    Location residenceLocation;
+    vector<Character> habitants;
+    Location location;
 
     public:
     Residence(string, string);
 
-    void setResidents(vector<Character>);
+    void setHabitants(vector<Character>);
 
     string getAddress();
     vector<Character> getResidents();

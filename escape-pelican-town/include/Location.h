@@ -4,10 +4,12 @@ using namespace std;
 
 class Location {
     private:
-    string locationName;
+    string name;
     string currentLocation;
 
     public:
+    Location(); 
+    
     Location(string);
 
     void setCurrentLocation(string);    

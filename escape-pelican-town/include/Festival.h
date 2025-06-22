@@ -4,9 +4,9 @@ using namespace std;
 
 class Festival {
     private:
-    string festivalName;
-    string festivalSeason;
-    string festivalTheme;
+    string name;
+    string season;
+    string theme;
 
     public:
     Festival(string);

@@ -8,10 +8,10 @@ class Player {
     int amountOfGold;
 
     public:
-    Player(string, int);
+    Player(string);
 
     string getName();
     int getAmountOfGold();
 
-    void addGold(int);
+    void adjustGold(int, bool);
 };

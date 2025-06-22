@@ -7,11 +7,14 @@ class Character {
     string name;
     string birthSeason;
     int birthDay;
+    string birthday;
     string homeLocation;
     bool marriageable;
     string gender;
 
     public:
+    Character();
+
     Character(string, bool, string);
     
     void setBirthday(string, int);

@@ -4,7 +4,7 @@ using namespace std;
 
 class Crop {
     private:
-    string cropName;
+    string name;
     string season;
     int costOfSeeds;
     int daysTillHarvest;

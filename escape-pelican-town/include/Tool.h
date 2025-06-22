@@ -1,26 +1,27 @@
 #include <iostream>
+#include "Player.h"
 
 using namespace std;
 
 class Tool {
     private:
-    string toolName;
-    string toolStatus;
+    string name;
+    string status;
     int upgradeCost;
     // string upgradeIngredients;
 
     public:
     Tool(string, string);
 
-    void setToolName(string);
-    void setToolStatus(string);
+    void setName(string);
+    void setStatus(string);
     void setUpgradeCost(int);
     // void setUpgradeIngredients(string);
 
-    string getToolName();
-    string getToolStatus();
+    string getName();
+    string getStatus();
     int getUpgradeCost();
     // string getUpgradeIngredients();
 
-    Tool upgradeTool(int);
+    void upgradeTool(Player, string, string, int);
 };
