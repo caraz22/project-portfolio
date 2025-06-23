@@ -1,10 +1,11 @@
 #include <iostream>
 #include <vector>
-#include "Character.h"
-#include "Crop.h"
-#include "Festival.h"
+#include <Crop.h>
+#include <Festival.h>
 
 using namespace std;
+
+class Character;
 
 class Season {
     private:
@@ -15,12 +16,15 @@ class Season {
     vector<Crop> crops;
 
     public:
+    Season();
+    
     Season(string);
     
     void setFestivals(vector<Festival>);
     void setBithdays(vector<Character>);
     void setCrops(vector<Crop>);
 
+    string getName();
     vector<Festival> getFestivals();
     vector<Character> getBirthdays();
     vector<Crop> getCrops();

@@ -17,6 +17,10 @@ void Season::setCrops(vector<Crop> seasonCrops) {
     crops = seasonCrops;
 }
 
+string Season::getName() {
+    return name;
+}
+
 vector<Festival> Season::getFestivals() {
     return festivals;
 }

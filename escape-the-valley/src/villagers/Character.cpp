@@ -1,21 +1,17 @@
 #include "Character.h"
 
-Character::Character(string characterName, bool isMarriageable, string characterGender) {
+Character::Character(string characterName, bool isMarriageable) {
     name = characterName;
     marriageable = isMarriageable;
-    gender = characterGender;
 }
 
-void Character::setBirthday(string characterBirthSeason, int characterBirthDay) {
-    birthday = characterBirthSeason + " " + to_string(characterBirthDay);
+void Character::setBirthday(Season characterBirthSeason, int characterBirthDay) {
+    birthSeason = characterBirthSeason;
+    birthday = birthSeason.getName() + " " + to_string(characterBirthDay);
 }
 
-void Character::setHomeLocation(int homeNumber, string homeTown) {
-    homeLocation = to_string(homeNumber) + " " + homeTown;
-}
-
-void Character::setGender(string characterGender) {
-    gender = characterGender;
+void Character::setHomeAddress(int homeNumber, string homeStreet) {
+    homeAddress = to_string(homeNumber) + " " + homeStreet;
 }
 
 string Character::getBirthday() {
@@ -30,10 +26,10 @@ bool Character::getMarriageable() {
     return marriageable;
 }
 
-string Character::getHomeLocation() {
-    return homeLocation;
+string Character::getHomeAddress() {
+    return homeAddress;
 }
 
-string Character::getGender() {
-    return gender;
+Location Character::getHomeTown() {
+    return homeTown;
 }
