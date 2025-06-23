@@ -10,8 +10,8 @@ void Character::setBirthday(string characterBirthSeason, int characterBirthDay) 
     birthday = characterBirthSeason + " " + to_string(characterBirthDay);
 }
 
-void Character::setHomeLocation(string characterHomeLocation) {
-    homeLocation = characterHomeLocation;
+void Character::setHomeLocation(int homeNumber, string homeTown) {
+    homeLocation = to_string(homeNumber) + " " + homeTown;
 }
 
 void Character::setGender(string characterGender) {

@@ -1,4 +1,4 @@
-# Escape Pelican Town
+# Escape the Valley
 ## Story
 This is a creepy spin off game of Stardew Valley. The player inherits a farm from their grandfather due to his death, but after living in Pelican Town for a bit, the player notices something is... off. The villagers all seem pretty cheerful on the outside, but what disturbing secrets are they hiding? They all have their own lives with unique personalities and backgrounds. Learn about them, their family and friends, and find out what living in Pelican Town is like for them. Maybe you'll even find information about your grandfather's death... 
 

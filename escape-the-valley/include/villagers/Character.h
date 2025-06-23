@@ -5,8 +5,8 @@ using namespace std;
 class Character {
     private:
     string name;
-    string birthSeason;
-    int birthDay;
+    // string birthSeason;
+    // int birthDay;
     string birthday;
     string homeLocation;
     bool marriageable;
@@ -18,7 +18,7 @@ class Character {
     Character(string, bool, string);
     
     void setBirthday(string, int);
-    void setHomeLocation(string);
+    void setHomeLocation(int, string);
     void setGender(string);
 
     string getBirthday();
