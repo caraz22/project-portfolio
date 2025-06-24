@@ -1,13 +1,15 @@
 #include <iostream>
-#include <Location.h>
-#include <Season.h>
+#include "Location.h"
+#include <vector>
 
 using namespace std;
+
+class Season;
 
 class Character {
     private:
     string name;
-    Season birthSeason;
+    Season* birthSeason;
     string birthday;
     string homeAddress;
     Location homeTown;
@@ -19,11 +21,12 @@ class Character {
 
     Character(string, bool);
 
-    void setBirthday(Season, int);
+    void setBirthday(Season*, int);
     void setHomeAddress(int, string);
     void setHomeTown(string);
 
     string getBirthday();
+    Season* getBirthSeason();
     string getName();
     bool getMarriageable();
     string getHomeAddress();

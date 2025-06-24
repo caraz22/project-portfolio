@@ -1,13 +1,14 @@
 #include "Character.h"
+#include "Season.h"
 
 Character::Character(string characterName, bool isMarriageable) {
     name = characterName;
     marriageable = isMarriageable;
 }
 
-void Character::setBirthday(Season characterBirthSeason, int characterBirthDay) {
+void Character::setBirthday(Season* characterBirthSeason, int characterBirthDay) {
     birthSeason = characterBirthSeason;
-    birthday = birthSeason.getName() + " " + to_string(characterBirthDay);
+    birthday = birthSeason->getName() + " " + to_string(characterBirthDay);
 }
 
 void Character::setHomeAddress(int homeNumber, string homeStreet) {
@@ -16,6 +17,11 @@ void Character::setHomeAddress(int homeNumber, string homeStreet) {
 
 string Character::getBirthday() {
     return birthday;
+}
+
+void Character::setBirthday(Season* characterBirthSeason, int characterBirthDay) {
+    birthSeason = characterBirthSeason;
+    birthday = birthSeason->getName() + " " + to_string(characterBirthDay);
 }
 
 string Character::getName() {

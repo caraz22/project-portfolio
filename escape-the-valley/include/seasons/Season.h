@@ -1,11 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <Crop.h>
-#include <Festival.h>
+#include "Crop.h"
+#include "Festival.h"
+#include "Character.h"
 
 using namespace std;
-
-class Character;
 
 class Season {
     private:
