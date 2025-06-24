@@ -1,9 +1,7 @@
 #include "Festival.h"
 
-Festival::Festival(string festivalName, string festivalSeason) {
-    name = festivalName;
-    season = festivalSeason;
-}
+Festival::Festival(string festivalName, Season& festivalSeason) 
+    : name(festivalName), season(festivalSeason) { }
 
 void Festival::setTheme(string festivalTheme) {
     theme = festivalTheme;
@@ -13,7 +11,7 @@ string Festival::getName() {
     return name;
 }
 
-string Festival::getSeason() {
+Season& Festival::getSeason() {
     return season;
 }
 

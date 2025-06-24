@@ -2,23 +2,25 @@
 
 using namespace std;
 
+class Season;
+
 class Crop {
     private:
     string name;
-    string season;
+    Season& season;
     int costOfSeeds;
     int daysTillHarvest;
     int sellPrice;
 
     public:
-    Crop(string, string);
+    Crop(string, Season&);
 
     void setCostOfSeed(int);
     void setDaysTillHarvest(int);
     void setSellPrice(int);
 
     string getCropName();
-    string getSeason();
+    Season& getSeason();
     int getCostOfSeeds();
     int getDaysTillHarvest();
     int getSellPrice();

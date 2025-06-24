@@ -2,18 +2,20 @@
 
 using namespace std;
 
+class Season;
+
 class Festival {
     private:
     string name;
-    string season;
+    Season& season;
     string theme;
 
     public:
-    Festival(string, string);
+    Festival(string, Season&);
 
     void setTheme(string);
 
     string getName();
-    string getSeason();
+    Season& getSeason();
     string getTheme();
 };

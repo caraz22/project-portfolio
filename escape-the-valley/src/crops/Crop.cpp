@@ -1,9 +1,8 @@
 #include "Crop.h"
+#include "Season.h"
 
-Crop::Crop(string cropName, string cropSeason) {
-    name = cropName;
-    season = cropSeason;
-}
+Crop::Crop(string cropName, Season& cropSeason) 
+    : name(cropName), season(cropSeason) { }
 
 void Crop::setCostOfSeed(int costOfCropSeeds) {
     costOfSeeds = costOfCropSeeds;
@@ -21,7 +20,7 @@ string Crop::getCropName() {
     return name;
 }
 
-string Crop::getSeason() {
+Season& Crop::getSeason() {
     return season;
 }
 
