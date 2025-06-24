@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Location.h"
 #include <vector>
+#include "Location.h"
 
 using namespace std;
 
