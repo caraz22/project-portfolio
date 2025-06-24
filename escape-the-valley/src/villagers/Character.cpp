@@ -19,9 +19,8 @@ string Character::getBirthday() {
     return birthday;
 }
 
-void Character::setBirthday(Season* characterBirthSeason, int characterBirthDay) {
-    birthSeason = characterBirthSeason;
-    birthday = birthSeason->getName() + " " + to_string(characterBirthDay);
+Season* Character::getBirthSeason() {
+    return birthSeason;
 }
 
 string Character::getName() {
