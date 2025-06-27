@@ -1,4 +1,4 @@
-#include "Festival.h"
+#include "festivals/Festival.h"
 #include "Season.h"
 
 extern Festival eggFestival;
