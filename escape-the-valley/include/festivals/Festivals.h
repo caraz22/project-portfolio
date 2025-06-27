@@ -1,4 +1,5 @@
 #include "Festival.h"
+#include "Season.h"
 
 extern Festival eggFestival;
 extern Festival flowerDance;
@@ -11,5 +12,7 @@ extern Festival feastOfWinterStar;
 
 class Festivals {
     public:
+    Festivals();
+
     vector<Festival> addFestsToSeasons(vector<Festival>, Season);
 };

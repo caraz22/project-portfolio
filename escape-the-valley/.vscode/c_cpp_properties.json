@@ -4,6 +4,14 @@
       "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**"
+        // "${workspaceFolder}/include/crops",
+        // "${workspaceFolder}/include/festivals",
+        // "${workspaceFolder}/include/locations",
+        // "${workspaceFolder}/include/residences",
+        // "${workspaceFolder}/include/seasons",
+        // "${workspaceFolder}/include/shops",
+        // "${workspaceFolder}/include/tools",
+        // "${workspaceFolder}/include/villagers"
       ],
       "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
       "cStandard": "${default}",
