@@ -20,7 +20,7 @@ class Season {
     Season(string);
     
     void setFestivals(vector<Festival>);
-    void setBithdays(vector<Character>);
+    void setBirthdays(vector<Character>);
     void setCrops(vector<Crop>);
 
     string getName();
@@ -29,4 +29,6 @@ class Season {
     vector<Crop> getCrops();
 
     int addYear();
+
+    bool operator==(const Season &);
 };

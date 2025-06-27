@@ -8,3 +8,8 @@ extern Festival sdvFair;
 extern Festival spiritsEve;
 extern Festival festOfIce;
 extern Festival feastOfWinterStar;
+
+class Festivals {
+    public:
+    vector<Festival> addFestsToSeasons(vector<Festival>, Season);
+};

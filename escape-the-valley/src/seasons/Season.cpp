@@ -9,7 +9,7 @@ void Season::setFestivals(vector<Festival> seasonFestivals) {
     festivals = seasonFestivals;
 }
 
-void Season::setBithdays(vector<Character> seasonBirthdays) {
+void Season::setBirthdays(vector<Character> seasonBirthdays) {
     birthdays = seasonBirthdays;
 }
 
@@ -35,4 +35,12 @@ vector<Crop> Season::getCrops() {
 
 int Season::addYear() {
     year += 1;
+}
+
+bool Season::operator==(const Season & otherSeason) {
+    if (name == otherSeason.name) {
+        return true;
+    } else {
+        return false;
+    }
 }
