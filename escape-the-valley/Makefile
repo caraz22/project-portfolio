@@ -1,10 +1,10 @@
 # Compiler and flags
 CXX = C:/msys64/ucrt64/bin/g++.exe
-CXXFLAGS = -Wall -Wextra -std=c++17 -Iinclude -Iinclude/crops -Iinclude/festivals -Iinclude/locations -Iinclude/residences -Iinclude/seasons -Iinclude/shops -Iinclude/tools -Iinclude/villagers
+CXXFLAGS = -Wall -Wextra -std=c++17 -Iinclude
 
 # Source and build files
 SRCS := $(wildcard src/*.cpp)
-OBJS := $(patsubst src/%.cpp, build/%.o, $(SRCS))
+OBJS := $(patsubst src/%.cpp, build/%.o,$(SRCS))
 TARGET = main.exe
 
 .PHONY: all clean
