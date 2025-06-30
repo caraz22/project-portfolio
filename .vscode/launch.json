@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cszok/project-portfolio/syntax_refresh/cPlusPlus",
-      "program": "c:/Users/cszok/project-portfolio/syntax_refresh/cPlusPlus/build/Debug/outDebug",
+      "cwd": "c:/Users/cszok/project-portfolio/escape-the-valley/src",
+      "program": "c:/Users/cszok/project-portfolio/escape-the-valley/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
