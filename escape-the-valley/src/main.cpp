@@ -1,21 +1,17 @@
 #include <iostream>
 #include "festivals/Festivals.h"
-#include "Seasons.h"
+#include "seasons/Seasons.h"
 
 using namespace std;
 
 int main() {
     Festivals festivalManager;
 
-    vector<Festival> springFestivals;
-    vector<Festival> summerFestivals;
-    vector<Festival> fallFestivals;
-    vector<Festival> winterFestivals;
+    vector<Festival> springFestivals = festivalManager.addFestsToSeasons(spring);
+    vector<Festival> summerFestivals = festivalManager.addFestsToSeasons(summer);
+    vector<Festival> fallFestivals = festivalManager.addFestsToSeasons(fall);
+    vector<Festival> winterFestivals = festivalManager.addFestsToSeasons(winter);
 
-    festivalManager.addFestsToSeasons(springFestivals, spring);
-    festivalManager.addFestsToSeasons(summerFestivals, summer);
-    festivalManager.addFestsToSeasons(fallFestivals, fall);
-    festivalManager.addFestsToSeasons(winterFestivals, winter);
 
     cout << "Hello, World!";
 }

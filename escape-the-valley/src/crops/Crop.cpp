@@ -1,5 +1,4 @@
-#include "Crop.h"
-#include "Season.h"
+#include "crops/Crop.h"
 
 Crop::Crop(string cropName, Season& cropSeason) 
     : name(cropName), season(cropSeason) { }

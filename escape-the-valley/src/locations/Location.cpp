@@ -1,4 +1,4 @@
-#include "Location.h"
+#include "locations/Location.h"
 
 Location::Location(string locationName) {
     name = locationName;

@@ -1,4 +1,4 @@
-#include "Tool.h"
+#include "tools/Tool.h"
 
 Tool::Tool(string toolName, string toolStatus) {
     name = toolName;

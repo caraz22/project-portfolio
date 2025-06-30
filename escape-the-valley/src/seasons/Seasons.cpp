@@ -1,5 +1,4 @@
-#include "Season.h"
-#include "Festivals.h"
+#include "seasons/Season.h"
 
 Season spring("Spring");
 Season summer("Summer");

@@ -1,4 +1,4 @@
-#include "Residence.h"
+#include "residences/Residence.h"
 
 Residence::Residence(string residenceAddress, Location residenceLocation) {
     address = residenceAddress;

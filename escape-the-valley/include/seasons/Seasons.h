@@ -1,4 +1,4 @@
-#include "Season.h"
+#include "seasons/Season.h"
 
 extern Season spring;
 extern Season summer;

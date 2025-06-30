@@ -1,5 +1,7 @@
-#include "Character.h"
-#include "Season.h"
+#include <string>
+#include "seasons/Season.h"
+
+using namespace std;
 
 Character::Character(string characterName, bool isMarriageable) {
     name = characterName;

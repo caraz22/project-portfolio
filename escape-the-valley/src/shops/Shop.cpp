@@ -1,5 +1,4 @@
-#include "Shop.h"
-#include "Character.h"
+#include "shops/Shop.h"
 
 Shop::Shop(string shopName, Location shopLocation) {
     name = shopName;

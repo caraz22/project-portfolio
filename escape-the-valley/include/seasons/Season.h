@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
-#include "Crop.h"
-#include "Festival.h"
-#include "Character.h"
+#include "crops/Crop.h"
+#include "festivals/Festival.h"
+#include "villagers/Character.h"
 
 using namespace std;
 

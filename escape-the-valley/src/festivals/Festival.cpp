@@ -1,4 +1,4 @@
-#include "Festival.h"
+#include "festivals/Festival.h"
 
 Festival::Festival(string festivalName, Season& festivalSeason) 
     : name(festivalName), season(festivalSeason) { }
