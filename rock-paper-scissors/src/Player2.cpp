@@ -10,9 +10,9 @@ Player2::Player2() {
 // roll: Player 2 chooses rock, paper, or scissors
 // Returns player 2's choice
 string Player2::roll() {
-    srand(time(0));                     // make number random each time function is called
+    srand(time(0));                     
     
-    int rollNum = (rand() % 3) + 1;     // 
+    int rollNum = (rand() % 3) + 1;    
 
     string rollName;
 
