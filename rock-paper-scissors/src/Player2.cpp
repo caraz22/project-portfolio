@@ -32,11 +32,6 @@ void Player2::win() {
     score = getScore() + 1;
 }
 
-// lose: If player 2 loses, subtract 1 from their score
-void Player2::lose() {
-    score = getScore() - 1;
-}
-
 // getScore: Return player 2's score
 int Player2::getScore() {
     return score;

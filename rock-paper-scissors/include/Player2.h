@@ -12,7 +12,5 @@ class Player2 {
 
     void win();             // adds a point to player 2's score
 
-    void lose();            // removes a point from player 2's score
-
     int getScore();         // returns player 2's score
 };
